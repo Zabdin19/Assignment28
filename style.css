@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to bottom right, #ff8a00, #ff0072); */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    width: 300px;
+    padding: 30px;
+    background-color: rgba(167, 148, 148, 0.419);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  #timer {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #ques {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: left;
+  } */
+
+  /* .option {
+    display: flex;
+    align-items: center;
+  } */
+
+  input[type="radio"] {
+    margin-right: 10px;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input[type="radio"]:checked {
+    background-color: #2678cf;
+  }
+
+  label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
